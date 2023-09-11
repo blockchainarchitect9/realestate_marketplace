@@ -10,7 +10,7 @@ function App() {
 
   const MyContractJSON = require("./build/LandSale.json");
 
-  const contractAddress = MyContractJSON.networks["5777"].address;
+  const contractAddress = MyContractJSON.networks["5"].address;
   const contractAbi = MyContractJSON.abi;
 
   const web3 = new Web3(ethereum);
